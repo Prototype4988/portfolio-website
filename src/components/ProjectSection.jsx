@@ -12,7 +12,7 @@ const projectsData = [
       description: "A responsive portfolio website. (NextJs, Tailwind) ",
       image: "/images/projects/1.png",
       tag: ["All", "Web"],
-      gitUrl:"/",
+      gitUrl:"https://github.com/Prototype4988/portfolio-website",
       previewUrl:"/"
     },
     {
