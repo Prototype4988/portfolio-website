@@ -40,11 +40,11 @@ const EmailSection = () => {
     <section id="contact" className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative">
         <div className='absolute w-80 h-80 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full blur-lg top-full -left-4 transform -translate-x-1/2 -translate-y-1/2'></div>
         
-        <div><h5 className='text-xl font-bold text-white my-2'>Let's Connect</h5>
+        <div><h5 className='text-xl font-bold text-white my-2'>Let&apos;s Connect</h5>
         <p className='text-[#ADB7BE] mb-4 max-w-md'>
             {" "}
-            I'm, currently looking for new opportunities, my inbox is always open.
-            Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            I&apos;m, currently looking for new opportunities, my inbox is always open.
+            Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
         </p>
         <div className='socials flex flex-row gap-2'>
             <Link href="https://github.com/Prototype4988" target='_blank'>
@@ -56,7 +56,7 @@ const EmailSection = () => {
         </div>
         </div>
         <div>
-            <Image className="flex flex-col mb-6" src="/images/contact-img.svg" width={600} height={400}/>
+            <Image className="flex flex-col mb-6" src="/images/contact-img.svg" width={600} height={400} alt='contact-img'/>
             {/* mail is hidden due to no domain to send email. you can replace hidden with flex to test it out */}
             <form className='hidden flex-col' onSubmit={handleSubmit}>
                 <div className='mb-6'>
