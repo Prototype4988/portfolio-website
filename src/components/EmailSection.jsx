@@ -58,7 +58,7 @@ const EmailSection = () => {
         <div>
             <Image className="flex flex-col mb-6" src="/images/contact-img.svg" width={600} height={400} alt='contact-img'/>
             {/* mail is hidden due to no domain to send email. you can replace hidden with flex to test it out */}
-            <form className='hidden flex-col' onSubmit={handleSubmit}>
+            {/* <form className='hidden flex-col' onSubmit={handleSubmit}>
                 <div className='mb-6'>
 
                 
@@ -84,7 +84,7 @@ const EmailSection = () => {
                         </p>
                     )
                 }
-            </form>
+            </form> */}
         </div>
     </section>
   )
