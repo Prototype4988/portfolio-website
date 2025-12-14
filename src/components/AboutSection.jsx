@@ -11,11 +11,13 @@ const TAB_DATA= [
             <ul className='list-disc pl-2'>
                 <li>Python</li>
                 <li>Java</li>
+                <li>Perl</li>
                 <li>JavaScript</li>
                 <li>Node.js</li>
                 <li>SQL</li>
                 <li>Spring</li>
                 <li>Django</li>
+                <li>DevOps</li>
                 <li>AI/ML</li>
             </ul>
         )
@@ -34,6 +36,7 @@ const TAB_DATA= [
         id:"Experience",
         content:(
             <ul className='list-disc pl-2'>
+                <li>Member of Technical Staff - Athenahealth</li>
                 <li>Associate Software Engineer - BNP Paribas</li>
                 <li>Software Engineer  Intern - BNP Paribas</li>
                 <li>Data Automation Intern - National Institute of Wind Energy</li>
